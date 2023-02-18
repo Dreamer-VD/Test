@@ -1,5 +1,4 @@
-﻿double x1, x2;
-try
+﻿try
 {
 Console.WriteLine("Введите a");
 double a = Convert.ToInt32(Console.ReadLine());
@@ -8,6 +7,7 @@ double b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите c");
 double c = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("a={0},b={1},c={2}",a,b,c);
+double x1, x2;
 double d = Math.Pow(b, 2) - 4 * a * c;
     if (d < 0)
 {
